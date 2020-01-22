@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Niomic</title>
+  </head>
+  <body>
+    <p>Click Untuk Merubah Warna.</p>
+    <p id="hasil"></p>
+    <button type="button" name="button" onclick="myFunction()">Ubah Warna</button>
+    <script>
+      function myFunction(){
+      var warna = prompt("Ketikan Warna yang kamu inginkan (English)");
+      if (warna = 'yellow'){
+      document.body.style.backgroundColor = 'yellow';
+        document.getElementById('hasil').innerHTML = "Warna " + warna;
+      }
+      }
+    </script>
+  </body>
+</html>
